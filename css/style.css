@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.fondo{
+    background: url('../img/fondo.jpg');
+    max-width: 100%;
+    height: 422px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: auto;  
+}
+
+
+
+.preview{ 
+    animation: inicio  1s ease-in infinite ;
+    position:absolute; 
+    height: 260px; 
+    max-width: 100%;
+    top: 232px; 
+    left: 0px; 
+    transform: rotate(0deg) skew(0deg); 
+    border-top: 120px solid transparent; 
+    border-left: 0px transparent; 
+    border-right: 375px solid #428BCA; 
+    border-bottom: 0px solid transparent; 
+    
+
+} 
+/* .preview:hover {
+    -webkit-transform: translate(0,-100px) ;
+
+} */
+@keyframes inicio{
+from{ 
+    transform: translate(0,100px);
+}to{
+transform: translate(0,-100px);
+}
+   
+
+
+}
